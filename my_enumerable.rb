@@ -13,7 +13,9 @@ module MyEnumerable
     false
   end
 
-  def filter?
-    # code
+  def filter
+    matching = []
+    each { |e| matching.push(e) if yield(e) }
+    matching
   end
 end
