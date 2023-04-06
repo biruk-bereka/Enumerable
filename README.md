@@ -97,6 +97,12 @@ code .
 
 This will open Visual Studio Code on the folder you're at.
 
+open terminal and run
+
+```
+ irb .\my_list.rb  
+```
+
 ### Run tests
 
 There are no tests configured for this project.
